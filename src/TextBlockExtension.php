@@ -14,6 +14,13 @@ class TextBlockExtension extends BlockExtension
 {
 
     /**
+     * The extension category.
+     *
+     * @var string
+     */
+    protected $category = 'content';
+
+    /**
      * This extension provides an HTML
      * block for the blocks module.
      *
